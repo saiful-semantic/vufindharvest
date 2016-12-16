@@ -136,6 +136,8 @@ class HarvesterConsoleRunner
                 'sslcafile-s' => 'Path to SSL certificate authority file',
                 'nosslverifypeer' => 'Disable SSL verification',
                 'sanitize' => 'Strip illegal characters from XML',
+                'sanitizeRegex' =>
+                    'Optional regular expression defining XML characters to remove',
                 'badXMLLog-s' => 'Filename (relative to harvest directory) to log'
                     . ' XML fixed by sanitize setting'
                 
